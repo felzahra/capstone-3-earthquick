@@ -1,0 +1,104 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">QuakeAlert</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="PREF_PERMISSION">preference_location</string>
+
+
+    <!--Strings related to settings screen-->
+    <string name="settings_title">Settings</string>
+    <string name="quake_order_by_key">quake_sort</string>
+    <!--Magnitude Label-->
+    <string name="magnitude_order_by_label">Magnitude Range</string>
+    <!--Magnitude values-->
+    <string name="pref_sort_mag_four">4.5+</string>
+    <string name="pref_sort_label_two">2.5+</string>
+    <string name="pref_sort_label_one">1.0+</string>
+    <string name="pref_sort_label_significant">significant</string>
+    <string name="pref_sort_label_all">All Earthqquakes</string>
+    <!--Notification Label-->
+    <string name="notifications_title">Notifications</string>
+    <!--Filter Label-->
+    <string name="filter_title">Filter</string>
+    <!--Precaution Label-->
+    <string name="precautions_title">Precautions</string>
+    <!--Minimum magnitude Label-->
+    <string name="min_magnitude">Minimum Magnitude</string>
+    <string name="quake_min_magnitude_key">min_magnitude</string>
+
+    <!--strings related to notification preference screen-->
+    <string name="pref_around_my_location_label">Around my location</string>
+    <string name="pref_around_my_country_label">My country</string>
+    <string name="pref_around_world_label">Worldwide</string>
+    <string name="pref_around_my_location_value">location</string>
+    <string name="pref_around_my_country_value">country</string>
+    <string name="pref_around_world_value">worldwide</string>
+    <string name="location">Location</string>
+    <string name="quake_location_key">location_key</string>
+    <string name="pref_min_mag_eight_value"> 8</string>
+    <string name="pref_min_mag_six_label">6</string>
+    <string name="pref_min_mag_eight_label"><![CDATA[> 8]]></string>
+    <string name="pref_min_mag_seven_label">7</string>
+    <string name="enable_notifications">Quake Notifications</string>
+    <string name="quake_enable_notification_key">notifications_enabled</string>
+    <!--General settings-->
+    <string name="general_title">General</string>
+    <string name="distance">Distance</string>
+    <string name="quake_distance_key">distance_key</string>
+    <!--strings related to distance-->
+    <string name="pref_distance_km_label">Kilometre</string>
+    <string name="pref_distance_miles_label">Miles</string>
+    <string name="quake_map_type_key">map_type</string>
+    <string name="map_type">Map Type</string>
+    <!--strings related to map types-->
+    <string name="pref_map_type_roadmap_label">Roadmap</string>
+    <string name="pref_map_type_satellite_label">Satellite</string>
+    <string name="pref_map_type_terrian_label">Terrain</string>
+    <string name="pref_map_type_hybrid_label">Hybrid</string>
+    <string name="sync_account_type">quakealert.surya.com</string>
+    <string name="content_authority">com.surya.quakealert</string>
+    <string name="widget_title">Recent Quakes</string>
+    <string name="update">UPDATE</string>
+    <string name="quake_extra">details</string>
+    <string name="detail_icon_transition_name">detail_transition</string>
+    <string name="transition_mag">mag_transition</string>
+    <string name="transition_icon">icon_transition</string>
+    <string name="distance_heading">Distance</string>
+    <string name="count_heading">Count</string>
+    <string name="magnitude_background">Magnitude background</string>
+
+    <!-- A11y -->
+    <string name="a11y_magnitude"><xliff:g id="mag">%1$s</xliff:g></string>
+    <string name="a11y_title">Place: <xliff:g id="place">%1$s</xliff:g></string>
+    <string name="a11y_time">Event occurred: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="a11y_location">Location latitude and longitude: <xliff:g id="loc">%1$s</xliff:g></string>
+    <string name="a11y_count">Number of people felt the earthquake: <xliff:g id="count">%1$s</xliff:g></string>
+    <string name="a11y_url">Link to more details about the earthquake</string>
+    <string name="a11y_icon">Magnitude: </string>
+    <string name="more_link">More at USGS.gov</string>
+    <!--format count-->
+    <string name="format_count"><xliff:g id="count">%1$s</xliff:g> people felt it</string>
+    <string name="distance_format_km">\tKM</string>
+    <string name="distance_format_miles">\tMiles</string>
+    <string name="share">Share</string>
+    <string name="current_distance">current_disstance</string>
+    <string name="country_name">country_name</string>
+    <string name="location_latitude">location_latitude</string>
+    <string name="notification_around_my_location_key">my_location_key</string>
+    <string name="location_longitude">location_longitude</string>
+    <string name="notification_title">Earthquake Near : <xliff:g id="count">%1$s</xliff:g></string>
+    <string name="noti_title_set">notification_title_set</string>
+    <string name="pref_quake_status_key">quake_status</string>
+
+    <string name="empty_quake_list_server_down">No Earthquake information available. The server is not returning any data.</string>
+    <string name="empty_quake_list_server_error">No Earthquake information available. The server is not returning valid data. Please check for an updated version of QuakeAlert.</string>
+    <string name="empty_quake_list">No earth quakes available</string>
+    <string name="empty_quake_list_no_network">No Earthquake information available. The network is not available to fetch earthquakes data.</string>
+    <string name="distance_error">Unavailable</string>
+    <string name="a11y_more_btn">Click for more details</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_id"> ca-app-pub-1913689525530815/7280201681</string>
+    <string name="empty_fragment">Click the list item to display</string>
+
+</resources>
